@@ -215,8 +215,8 @@ hr {
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-top: 10px ;
+  margin-bottom: 10px;
   font-weight: 500;
   line-height: 1.2;
   color: var(--bs-heading-color);
@@ -4434,7 +4434,6 @@ textarea.form-control-lg {
 
 .card-body {
   flex: 1 1 auto;
-  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
 }
 
@@ -4539,12 +4538,12 @@ textarea.form-control-lg {
     border-left: 0;
   }
   .card-group > .card:not(:last-child) {
-    border-top-right-radius: 0;
+    
     border-bottom-right-radius: 0;
   }
   .card-group > .card:not(:last-child) .card-img-top,
   .card-group > .card:not(:last-child) .card-header {
-    border-top-right-radius: 0;
+    
   }
   .card-group > .card:not(:last-child) .card-img-bottom,
   .card-group > .card:not(:last-child) .card-footer {
@@ -8984,7 +8983,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% ;
+  border-radius: 50% !important;
 }
 
 .rounded-pill {
@@ -12055,3 +12054,9 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* empieza el reinado nazi */
+.galeria {
+  margin-top: 10px ;
+  margin-bottom: 10px;
+}
